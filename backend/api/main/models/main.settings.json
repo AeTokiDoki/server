@@ -1,8 +1,8 @@
 {
-  "kind": "collectionType",
-  "collectionName": "messages",
+  "kind": "singleType",
+  "collectionName": "mains",
   "info": {
-    "name": "message"
+    "name": "main"
   },
   "options": {
     "increments": true,
