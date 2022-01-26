@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "messages",
+  "info": {
+    "name": "message"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "hello": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    }
+  }
+}
